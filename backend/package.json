@@ -1,21 +1,15 @@
 {
   "name": "society-backend",
   "version": "1.0.0",
-  "description": "Backend service for Society Management App",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "Mani Kumar",
-  "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "mysql2": "^3.6.0",
-    "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+    "mysql2": "^3.6.1"
   }
 }
-
