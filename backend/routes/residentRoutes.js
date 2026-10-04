@@ -23,3 +23,4 @@ router.post('/api/residents', (req, res) => {
 });
 
 module.exports = router;
+
